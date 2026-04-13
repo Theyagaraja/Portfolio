@@ -1,0 +1,73 @@
+﻿
+> my-project@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.2.0 (Turbopack)
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 2.5s
+  Skipping validation of types
+  Finished TypeScript config validation in 10ms ...
+  Collecting page data using 4 workers ...
+  Generating static pages using 4 workers (0/3) ...
+node.exe : Error 
+occurred prerendering 
+page "/". Read more: ht
+tps://nextjs.org/docs/m
+essages/prerender-error
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Users\Theyagaraja\A
+ppData\Ro ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Error occurre   
+ d ...prerender-err    
+or:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Error: Attempted to 
+call createMotionCompon
+ent() from the server 
+but 
+createMotionComponent 
+is on the client. It's 
+not possible to invoke 
+a client function from 
+the server, it can 
+only be rendered as a 
+Component or passed to 
+props of a Client 
+Component.
+    at <unknown> 
+(E:\my updated porfolio
+\.next\server\chunks\ss
+r\_0..qfjx._.js:1:3120)
+    at Object.get 
+(E:\my updated porfolio
+\.next\server\chunks\ss
+r\_0..qfjx._.js:1:11152
+8)
+    at fh (E:\my 
+updated porfolio\.next\
+server\chunks\ssr\_0..q
+fjx._.js:1:119928)
+    at stringify 
+(<anonymous>) {
+  digest: '3404375575'
+}
+Export encountered an 
+error on /page: /, 
+exiting the build.
+Γ¿» Next.js build 
+worker exited with 
+code: 1 and signal: 
+null
